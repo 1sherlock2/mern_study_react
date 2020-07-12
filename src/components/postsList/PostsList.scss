@@ -1,0 +1,55 @@
+.posts_content {
+  text-align: left;
+
+  .post-items {
+    text-align: left;
+  }
+
+  .post-item {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 10%;
+    position: relative;
+    text-align: left;
+
+    a {
+      padding-bottom: 5%;
+      text-decoration: none;
+    }
+
+    h3 {
+      margin-left: 10%;
+    }
+
+    p {
+      margin-left: 10%
+    }
+
+    .button_list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      position: absolute;
+      left: 70%;
+      top: 25%,
+    }
+
+    .nav_edit {
+      color: aliceblue;
+    }
+
+    button {
+      color: aliceblue;
+      text-align: center;
+      margin: 5%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    position: relative;
+    .button_add_post {
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}
