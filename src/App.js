@@ -35,12 +35,7 @@ const App = (props) => {
     </div>
   )
 }
-// let mapStateToProps = (state) => {
-//   return {
-//     isAuth: state.authData.isAuth,
-//     isRegistered: state.authData.isRegistered,
-//   }
-// }
+
 const AppContainer = compose(withRouter,AuthRedirectHOK)(App)
 const MainApp = () => {
   return (

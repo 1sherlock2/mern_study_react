@@ -1,21 +1,14 @@
-import React from "react";
-import "./PostItem.css"
+import React from 'react';
+import './PostItem.scss';
+import BackButtonPostList from '../buttons/BackButton/BackButtonPostList';
 
+const PostItem = (props) => {
+	return (
+		<div className="post_items">
+			<BackButtonPostList />
+			<div>{props.text}</div>
+		</div>
+	);
+};
 
-const PostItem = props => {
-  return (
-    <div className='post_items'>
-      {
-        props.postById.map(el => {
-          return (
-            <div className='post-item'>
-
-            </div>
-          )
-        })
-      }
-    </div>
-  )
-}
-
-export default PostItem
+export default PostItem;
