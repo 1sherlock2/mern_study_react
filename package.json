@@ -27,7 +27,7 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"server": "cd ../mern_study_server && yarn build-start",
+		"server": "cd ./mern_study_server && yarn build-start",
 		"dev": "concurrently -r -k \"yarn run server\" \"yarn run start\"",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build"
