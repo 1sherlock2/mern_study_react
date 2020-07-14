@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/mern_study_react/static/css/main.224d343d.chunk.css",
-    "main.js": "/mern_study_react/static/js/main.14d27aef.chunk.js",
-    "main.js.map": "/mern_study_react/static/js/main.14d27aef.chunk.js.map",
-    "runtime-main.js": "/mern_study_react/static/js/runtime-main.3f331e94.js",
-    "runtime-main.js.map": "/mern_study_react/static/js/runtime-main.3f331e94.js.map",
+    "main.js": "/mern_study_react/static/js/main.1b210fb4.chunk.js",
+    "main.js.map": "/mern_study_react/static/js/main.1b210fb4.chunk.js.map",
+    "runtime-main.js": "/mern_study_react/static/js/runtime-main.01b421dc.js",
+    "runtime-main.js.map": "/mern_study_react/static/js/runtime-main.01b421dc.js.map",
     "static/js/2.de85de16.chunk.js": "/mern_study_react/static/js/2.de85de16.chunk.js",
     "static/js/2.de85de16.chunk.js.map": "/mern_study_react/static/js/2.de85de16.chunk.js.map",
     "static/css/3.4d2b15a9.chunk.css": "/mern_study_react/static/css/3.4d2b15a9.chunk.css",
-    "static/js/3.e0fbea94.chunk.js": "/mern_study_react/static/js/3.e0fbea94.chunk.js",
-    "static/js/3.e0fbea94.chunk.js.map": "/mern_study_react/static/js/3.e0fbea94.chunk.js.map",
+    "static/js/3.48ae15f6.chunk.js": "/mern_study_react/static/js/3.48ae15f6.chunk.js",
+    "static/js/3.48ae15f6.chunk.js.map": "/mern_study_react/static/js/3.48ae15f6.chunk.js.map",
     "static/css/4.b0288567.chunk.css": "/mern_study_react/static/css/4.b0288567.chunk.css",
     "static/js/4.9f589222.chunk.js": "/mern_study_react/static/js/4.9f589222.chunk.js",
     "static/js/4.9f589222.chunk.js.map": "/mern_study_react/static/js/4.9f589222.chunk.js.map",
     "static/css/5.e1280ca6.chunk.css": "/mern_study_react/static/css/5.e1280ca6.chunk.css",
-    "static/js/5.cb8b115e.chunk.js": "/mern_study_react/static/js/5.cb8b115e.chunk.js",
-    "static/js/5.cb8b115e.chunk.js.map": "/mern_study_react/static/js/5.cb8b115e.chunk.js.map",
+    "static/js/5.f560f930.chunk.js": "/mern_study_react/static/js/5.f560f930.chunk.js",
+    "static/js/5.f560f930.chunk.js.map": "/mern_study_react/static/js/5.f560f930.chunk.js.map",
     "static/css/6.27a1b572.chunk.css": "/mern_study_react/static/css/6.27a1b572.chunk.css",
     "static/js/6.da77bb48.chunk.js": "/mern_study_react/static/js/6.da77bb48.chunk.js",
     "static/js/6.da77bb48.chunk.js.map": "/mern_study_react/static/js/6.da77bb48.chunk.js.map",
     "index.html": "/mern_study_react/index.html",
-    "precache-manifest.98deaedc8ff3e579e3dcc2e7336d8304.js": "/mern_study_react/precache-manifest.98deaedc8ff3e579e3dcc2e7336d8304.js",
+    "precache-manifest.b8ed81f5069c6626bf93f42297de6eda.js": "/mern_study_react/precache-manifest.b8ed81f5069c6626bf93f42297de6eda.js",
     "service-worker.js": "/mern_study_react/service-worker.js",
     "static/css/3.4d2b15a9.chunk.css.map": "/mern_study_react/static/css/3.4d2b15a9.chunk.css.map",
     "static/css/4.b0288567.chunk.css.map": "/mern_study_react/static/css/4.b0288567.chunk.css.map",
@@ -30,9 +30,9 @@
     "static/js/2.de85de16.chunk.js.LICENSE.txt": "/mern_study_react/static/js/2.de85de16.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f331e94.js",
+    "static/js/runtime-main.01b421dc.js",
     "static/js/2.de85de16.chunk.js",
     "static/css/main.224d343d.chunk.css",
-    "static/js/main.14d27aef.chunk.js"
+    "static/js/main.1b210fb4.chunk.js"
   ]
 }
