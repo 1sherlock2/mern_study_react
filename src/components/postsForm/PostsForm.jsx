@@ -44,26 +44,11 @@ const PostsForm = props => {
 					</div>
 					<div className='form-group'>
 						<label htmlFor='image'>Image url</label>
-						<Field
-							name='imageURL'
-							component={Input}
-							type='text'
-							className='form-control'
-							id='submitImageURL'
-							placeholder='enter image url'
-						/>
+						{createFrom('imageURL', Input, 'text', 'form-control', 'submitImageURL', 'enter image url', requiredField)}
 					</div>
 					<div className='form-group'>
 						<label htmlFor='exampleFormControlTextarea1'> Your text </label>
-						{createFrom(
-							'text',
-							Textarea,
-							{},
-							'form-control',
-							'exampleFormControlTextarea1',
-							'enter your text',
-							[minLengthPostsFormText]
-						)}
+						{createFrom('text', Textarea, {}, 'form-control', 'exampleFormControlTextarea1', 'enter your text', [minLengthPostsFormText])}
 					</div>
 					<button type='submit' className='btn btn-primary'>
 						Send post
