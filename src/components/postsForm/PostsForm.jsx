@@ -45,13 +45,12 @@ const PostsForm = props => {
 					<div className='form-group'>
 						<label htmlFor='image'>Image url</label>
 						<Field
-							name='image'
+							name='imageURL'
 							component={Input}
-							type='file'
+							type='text'
 							className='form-control'
 							id='submitImageURL'
 							placeholder='enter image url'
-							onChange={props.onChange}
 						/>
 					</div>
 					<div className='form-group'>

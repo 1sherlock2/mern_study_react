@@ -9,14 +9,6 @@ import { AuthRedirectHOK } from '../../redux/HOC/AuthRedirectHOK';
 const PostsFromContainer = props => {
 	let [editMode, setEditMode] = useState(false);
 
-	// let inputImage = (e) => {
-	//   if (e.target.files.length) {
-	//     props.inputImageThunk(e.target.files[0])
-	//   }
-	// }
-
-	let onChange = e => {};
-
 	let onSubmit = formData => {
 		let userId = props.userId;
 		props.postAddThunk(userId, formData).then(() => {
@@ -24,7 +16,7 @@ const PostsFromContainer = props => {
 		});
 	};
 
-	return !editMode ? <PostsFormReduxForm onSubmit={onSubmit} onChange={onChange} /> : <Redirect to='/posts' />;
+	return !editMode ? <PostsFormReduxForm onSubmit={onSubmit} /> : <Redirect to='/posts' />;
 };
 
 let mapStateToProps = state => ({
