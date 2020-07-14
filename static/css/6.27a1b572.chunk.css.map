@@ -1,0 +1,1 @@
+{"version":3,"sources":["PostItem.scss","BackButtonPostList.scss"],"names":[],"mappings":"AAAA,WACC,iBAAkB,CAClB,cAAe,CCFhB,cACC,aAAc","file":"6.27a1b572.chunk.css","sourcesContent":[".post-item {\n\ttext-align: center;\n\tmargin: 5% auto;\n}\n",".back_buttons {\n\tmargin-top: 1%;\n}\n"]}
