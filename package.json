@@ -9,6 +9,8 @@
 		"@testing-library/user-event": "^7.1.2",
 		"axios": "^0.19.2",
 		"bootstrap": "^4.5.0",
+		"config": "^3.3.1",
+		"cross-env": "^7.0.2",
 		"node-sass": "^4.14.1",
 		"react": "^16.13.1",
 		"react-bootstrap": "^1.0.1",
@@ -27,10 +29,13 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
+		"start-server": "cd mern_study_server cross-env NODE_ENV=production node index.js ",
 		"server": "cd ./mern_study_server && yarn build-start",
-		"dev": "concurrently -r -k \"yarn run server\" \"yarn run start\"",
+		"dev": " cross-env NODE_ENV=development concurrently \"yarn run server\" \"yarn run start\"",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"deploy": "gh-pages -d build",
+		"mern_study_server:install": "npm install --prefix mern_study_server",
+		"mern_study_server:build": "npm install --prefix mern_study_server"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
