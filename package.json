@@ -28,14 +28,7 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"start-server": "cd mern_study_server cross-env NODE_ENV=production node index.js ",
-		"server": "cd ./mern_study_server && yarn build-start",
-		"dev": " cross-env NODE_ENV=development concurrently \"yarn run server\" \"yarn run start\"",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
-		"mern_study_server:install": "npm install --prefix mern_study_server",
-		"mern_study_server:build": "npm install --prefix mern_study_server"
+		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
